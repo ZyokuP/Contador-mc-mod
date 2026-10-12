@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="contadorhud"
+version="1.0.0"
+displayName="Contador HUD"
+description='''Contador regresivo minimalista en la parte superior de la pantalla, controlado con comandos de administrador.'''
+
+[[dependencies.contadorhud]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.contadorhud]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
